@@ -1,5 +1,5 @@
 # juyoutai.github.io
-お試し
+お試し Rの解析結果をgithubに載せてみる
 ================
 
 GitHub Documents
