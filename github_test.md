@@ -1,5 +1,4 @@
-# juyoutai.github.io
-お試し Rの解析結果をgithubに載せてみる
+Untitled
 ================
 
 GitHub Documents
@@ -130,6 +129,22 @@ write.table(anno, file = "cDC1.Irf8.annotation.txt")
 GO解析
 ------
 
-GO解析はRでも可能だが, 少し煩雑なので今回はGUIで使えるwebサービス[GREAT](http://great.stanford.edu/public/html/)を使用する. 
+GO解析はRでも可能だが, 少し煩雑なので今回はGUIで使えるwebサービス[GREAT](http://great.stanford.edu/public/html/)を使用する. This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
 
-とりあえずアップロードはできたのでよしとしよう
+Including Code
+--------------
+
+You can include R code in the document as follows:
+
+``` r
+summary(cars)
+```
+
+Including Plots
+---------------
+
+You can also embed plots, for example:
+
+![](github_test_files/figure-markdown_github/pressure-1.png)
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
