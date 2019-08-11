@@ -23,6 +23,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -283,7 +285,13 @@ $(document).ready(function () {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/juyoutai/juyoutai.github.io">
+    <span class="fa fa-github"></span>
+     
+    Source code
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -325,7 +333,7 @@ div.section {
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2019-08-07
+<strong>Last updated:</strong> 2019-08-11
 </p>
 <p>
 <strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 2 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
@@ -356,10 +364,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomjuyoutaijuyoutaigithubiotree08dd0db8b12af7af8840df17a2772dd0b10f1ce8targetblank08dd0dba"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/juyoutai/juyoutai.github.io/tree/08dd0db8b12af7af8840df17a2772dd0b10f1ce8" target="_blank">08dd0db</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomjuyoutaijuyoutaigithubiotree4232eb15e555bb344c569eb9596df2e5cd54e2c2targetblank4232eb1a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/juyoutai/juyoutai.github.io/tree/4232eb15e555bb344c569eb9596df2e5cd54e2c2" target="_blank">4232eb1</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomjuyoutaijuyoutaigithubiotree08dd0db8b12af7af8840df17a2772dd0b10f1ce8targetblank08dd0dba" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomjuyoutaijuyoutaigithubiotree4232eb15e555bb344c569eb9596df2e5cd54e2c2targetblank4232eb1a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -368,6 +376,9 @@ Great! You are using Git for version control. Tracking code development and conn
 Ignored files:
     Ignored:    .RData
     Ignored:    .Rhistory
+    Ignored:    Desktop/R/.Rhistory
+    Ignored:    Desktop/R/workflowr/.Rproj.user/
+    Ignored:    Desktop/bed/
     Ignored:    test/
 
 Untracked files:
@@ -409,7 +420,101 @@ Untracked files:
     Untracked:  .wget-hsts
     Untracked:  20190213_multiqc/
     Untracked:  Applications/
-    Untracked:  Desktop/
+    Untracked:  Desktop/.DS_Store
+    Untracked:  Desktop/.Rapp.history
+    Untracked:  Desktop/.localized
+    Untracked:  Desktop/20181109_illumina/
+    Untracked:  Desktop/20181224/
+    Untracked:  Desktop/20190213_log
+    Untracked:  Desktop/20190218_ChIP-seq/
+    Untracked:  Desktop/20190219_ChIP-seq
+    Untracked:  Desktop/20190227Microarray_analysis.Rmd
+    Untracked:  Desktop/20190228_handson/
+    Untracked:  Desktop/20190707_kallisto_sleuth/
+    Untracked:  Desktop/GSE40493_RAW/
+    Untracked:  Desktop/GSE66565_RAW/
+    Untracked:  Desktop/HOMER4.10/
+    Untracked:  Desktop/Medical Textbook/
+    Untracked:  Desktop/R/.DS_Store
+    Untracked:  Desktop/R/.Rapp.history
+    Untracked:  Desktop/R/20190213_ChIP-seq.Rmd
+    Untracked:  Desktop/R/20190303ATACseqQC/
+    Untracked:  Desktop/R/20190303_Cicero/
+    Untracked:  Desktop/R/20190304ATAC/
+    Untracked:  Desktop/R/CyTOF/
+    Untracked:  Desktop/R/CyTOF_2/
+    Untracked:  Desktop/R/CyTOF_new/
+    Untracked:  Desktop/R/Glimma/
+    Untracked:  Desktop/R/HIV_infection/
+    Untracked:  Desktop/R/Hex_bin.R
+    Untracked:  Desktop/R/MAGIC/
+    Untracked:  Desktop/R/Monocle3/
+    Untracked:  Desktop/R/RNAseq123/
+    Untracked:  Desktop/R/Rsubread/
+    Untracked:  Desktop/R/Seurat_v3/
+    Untracked:  Desktop/R/Seurat_v3_integrating/
+    Untracked:  Desktop/R/Seurat_v3_new/
+    Untracked:  Desktop/R/TrackViewer/
+    Untracked:  Desktop/R/chromvar/
+    Untracked:  Desktop/R/cisTopic/
+    Untracked:  Desktop/R/dynverse/
+    Untracked:  Desktop/R/enrichedheatmap/
+    Untracked:  Desktop/R/facet_grid_histogram.R
+    Untracked:  Desktop/R/fgsea/
+    Untracked:  Desktop/R/gganimate/
+    Untracked:  Desktop/R/ggrepel_test.R
+    Untracked:  Desktop/R/iSEE/
+    Untracked:  Desktop/R/kallisto_bustools/
+    Untracked:  Desktop/R/kallisto_sleuth/
+    Untracked:  Desktop/R/maEndToEnd/
+    Untracked:  Desktop/R/malaria/
+    Untracked:  Desktop/R/microarray/
+    Untracked:  Desktop/R/microarray_new/
+    Untracked:  Desktop/R/monocle/
+    Untracked:  Desktop/R/plot3D.R
+    Untracked:  Desktop/R/rayshader/
+    Untracked:  Desktop/R/schex/
+    Untracked:  Desktop/R/see_easystats/
+    Untracked:  Desktop/R/velocyte/
+    Untracked:  Desktop/R/viridis_ggseqlogo/
+    Untracked:  Desktop/R/workflowr/myproject/.Rprofile
+    Untracked:  Desktop/R/workflowr/myproject/.gitignore
+    Untracked:  Desktop/R/workflowr/myproject/README.md
+    Untracked:  Desktop/R/workflowr/myproject/_workflowr.yml
+    Untracked:  Desktop/R/workflowr/myproject/code/
+    Untracked:  Desktop/R/workflowr/myproject/data/
+    Untracked:  Desktop/R/workflowr/myproject/docs/figure/
+    Untracked:  Desktop/R/workflowr/myproject/myproject.Rproj
+    Untracked:  Desktop/R/workflowr/myproject/output/
+    Untracked:  Desktop/R/workflowr/workflowr.Rproj
+    Untracked:  Desktop/RNA_velocity/
+    Untracked:  Desktop/Rmd_test.Rmd
+    Untracked:  Desktop/WGCNA/
+    Untracked:  Desktop/brazil/
+    Untracked:  Desktop/cDC1.Irf8.annotation.txt
+    Untracked:  Desktop/data/
+    Untracked:  Desktop/github_test.Rmd
+    Untracked:  Desktop/github_test.md
+    Untracked:  Desktop/hesc.test.tes.avgprof.jpg
+    Untracked:  Desktop/hesc.test.tes.heatmap.jpg
+    Untracked:  Desktop/idep/
+    Untracked:  Desktop/illumina/
+    Untracked:  Desktop/illumina_beadchip.R
+    Untracked:  Desktop/make_bam.sh
+    Untracked:  Desktop/map_and_sort.sh
+    Untracked:  Desktop/monocle3_gif.gif
+    Untracked:  Desktop/multiqc_report_raw_data/
+    Untracked:  Desktop/multiqc_report_trimmed_data/
+    Untracked:  Desktop/ngsplot/
+    Untracked:  Desktop/pfastq.sh
+    Untracked:  Desktop/s41576-019-0093-7.pdf
+    Untracked:  Desktop/test.sh
+    Untracked:  Desktop/wonderful_R/
+    Untracked:  Desktop/分医研ChIP-seq.pdf
+    Untracked:  Desktop/国試pdf/
+    Untracked:  Desktop/応援メッセ.mp4
+    Untracked:  Desktop/画面収録 2019-07-24 15.16.41.mov
+    Untracked:  Desktop/画面収録 2019-07-24 15.19.05.mov
     Untracked:  Documents/
     Untracked:  Downloads/
     Untracked:  Library/
@@ -442,9 +547,69 @@ Note that any generated files, e.g. HTML, png, CSS, etc., are not included in t
 <hr>
 </div>
 <div id="versions" class="tab-pane fade">
+
 <p>
-There are no past versions. Publish this analysis with <code>wflow_publish()</code> to start tracking its development.
+These are the previous versions of the R Markdown and HTML files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view them.
 </p>
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+File
+</th>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+<th>
+Message
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/juyoutai/juyoutai.github.io/blob/4232eb15e555bb344c569eb9596df2e5cd54e2c2/Desktop/R/workflowr/myproject/analysis/license.Rmd" target="_blank">4232eb1</a>
+</td>
+<td>
+juyoutai
+</td>
+<td>
+2019-08-11
+</td>
+<td>
+Publish the initial files for myproject
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/juyoutai/juyoutai.github.io/fd7c89717fd9fa6c06505361ec4b01d97b160fbe/Desktop/R/workflowr/myproject/docs/license.html" target="_blank">fd7c897</a>
+</td>
+<td>
+juyoutai
+</td>
+<td>
+2019-08-07
+</td>
+<td>
+Build site.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 <hr>
 </div>
 </div>
